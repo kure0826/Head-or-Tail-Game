@@ -26,10 +26,10 @@ class Game{
         }
         System.out.println("Heads: " + headcounter + ", Tails: " + tailcounter);
         if (headcounter > tailcounter) {
-            System.out.println("You won");
+            System.out.println(name + " won!");
         }
         else {
-            System.out.println("You lost");
+            System.out.println(name + " lost");
         }
     }
 }
