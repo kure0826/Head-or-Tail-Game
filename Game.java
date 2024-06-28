@@ -17,5 +17,11 @@ class Game{
             }
         }
         System.out.println("Heads: " + headcounter + ", Tails: " + tailcounter);
+        if (headcounter > tailcounter) {
+            System.out.println("You won");
+        }
+        else {
+            System.out.println("You lost");
+        }
     }
 }
